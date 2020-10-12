@@ -4,7 +4,13 @@ pipeline {
         stage("Build") { 
             steps {
                       echo ' building the aplication ...!'
+                        input('Do you want to proceed ?')
+            
             }
+            
+            
+            
+            
         }
         stage("Test") { 
             steps {
