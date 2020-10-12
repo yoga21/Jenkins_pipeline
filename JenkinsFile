@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Build") { 
             steps {
-                      echo ' building the aplication ...!'
+                    
                         input('Do you want to proceed ?')
             
             }
